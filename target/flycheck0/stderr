@@ -1,0 +1,394 @@
+   0.993521600s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-client"}: cargo::core::compiler::fingerprint: fingerprint error for grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial)/Check { test: false }/TargetInner { name: "grpc-client", doc: true, ..: with_path("C:\\Users\\indra\\grpc-tutorial\\src\\grpc_client.rs", Edition2021) }
+   0.993605000s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-client"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\grpc-tutorial-93fa27db98b4c2fd\bin-grpc-client`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   1.016547200s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial)/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\indra\\grpc-tutorial\\build.rs", Edition2021) }
+   1.016616900s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\grpc-tutorial-0aa11441c185d428\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.017407900s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial)/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\indra\\grpc-tutorial\\build.rs", Edition2021) }
+   1.017449800s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\grpc-tutorial-42d30762815d6f7f\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.021115300s  INFO prepare_target{force=false package_id=tonic-build v0.7.2 target="tonic_build"}: cargo::core::compiler::fingerprint: fingerprint error for tonic-build v0.7.2/Build/TargetInner { name_inferred: true, ..: lib_target("tonic_build", ["lib"], "C:\\Users\\indra\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tonic-build-0.7.2\\src\\lib.rs", Edition2018) }
+   1.021176200s  INFO prepare_target{force=false package_id=tonic-build v0.7.2 target="tonic_build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\tonic-build-97808f6254eac660\lib-tonic_build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.035597300s  INFO prepare_target{force=false package_id=prost-build v0.10.4 target="prost_build"}: cargo::core::compiler::fingerprint: fingerprint error for prost-build v0.10.4/Build/TargetInner { name_inferred: true, ..: lib_target("prost_build", ["lib"], "C:\\Users\\indra\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prost-build-0.10.4\\src\\lib.rs", Edition2018) }
+   1.035728600s  INFO prepare_target{force=false package_id=prost-build v0.10.4 target="prost_build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\prost-build-56c5664f76081cfb\lib-prost_build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.043580600s  INFO prepare_target{force=false package_id=prost-build v0.10.4 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for prost-build v0.10.4/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\indra\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prost-build-0.10.4\\build.rs", Edition2018) }
+   1.043641800s  INFO prepare_target{force=false package_id=prost-build v0.10.4 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\prost-build-d0164da1cc335b9f\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.098820500s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-client"}: cargo::core::compiler::fingerprint: fingerprint error for grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial)/Check { test: true }/TargetInner { name: "grpc-client", doc: true, ..: with_path("C:\\Users\\indra\\grpc-tutorial\\src\\grpc_client.rs", Edition2021) }
+   1.098915300s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-client"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\grpc-tutorial-ba3d3eeb4fcebdb9\test-bin-grpc-client`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   1.101572500s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-server"}: cargo::core::compiler::fingerprint: fingerprint error for grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial)/Check { test: false }/TargetInner { name: "grpc-server", doc: true, ..: with_path("C:\\Users\\indra\\grpc-tutorial\\src\\grpc_server.rs", Edition2021) }
+   1.101626700s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-server"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\grpc-tutorial-855cad71e78f690c\bin-grpc-server`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   1.103730600s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-server"}: cargo::core::compiler::fingerprint: fingerprint error for grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial)/Check { test: true }/TargetInner { name: "grpc-server", doc: true, ..: with_path("C:\\Users\\indra\\grpc-tutorial\\src\\grpc_server.rs", Edition2021) }
+   1.103785500s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-server"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\grpc-tutorial-ed76c40a692eba1c\test-bin-grpc-server`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   1.106371800s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-tutorial"}: cargo::core::compiler::fingerprint: fingerprint error for grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial)/Check { test: false }/TargetInner { name: "grpc-tutorial", doc: true, ..: with_path("C:\\Users\\indra\\grpc-tutorial\\src\\main.rs", Edition2021) }
+   1.106510800s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-tutorial"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\grpc-tutorial-e3a88fc5aa4e84f8\bin-grpc-tutorial`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   1.110128400s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-tutorial"}: cargo::core::compiler::fingerprint: fingerprint error for grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial)/Check { test: true }/TargetInner { name: "grpc-tutorial", doc: true, ..: with_path("C:\\Users\\indra\\grpc-tutorial\\src\\main.rs", Edition2021) }
+   1.110185400s  INFO prepare_target{force=false package_id=grpc-tutorial v0.1.0 (C:\Users\indra\grpc-tutorial) target="grpc-tutorial"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\indra\grpc-tutorial\target\debug\.fingerprint\grpc-tutorial-059e750359b917d8\test-bin-grpc-tutorial`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   Compiling prost-build v0.10.4
+error: failed to run custom build command for `prost-build v0.10.4`
+note: To improve backtraces for build dependencies, set the CARGO_PROFILE_DEV_BUILD_OVERRIDE_DEBUG=true environment variable to enable debug information generation.
+
+Caused by:
+  process didn't exit successfully: `C:\Users\indra\grpc-tutorial\target\debug\build\prost-build-d1ef9d5b7564a9d1\build-script-build` (exit code: 101)
+  --- stdout
+  cargo:rerun-if-changed=C:\Users\indra\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\cmake
+  CMAKE_TOOLCHAIN_FILE_x86_64-pc-windows-msvc = None
+  CMAKE_TOOLCHAIN_FILE_x86_64_pc_windows_msvc = None
+  HOST_CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_GENERATOR_x86_64-pc-windows-msvc = None
+  CMAKE_GENERATOR_x86_64_pc_windows_msvc = None
+  HOST_CMAKE_GENERATOR = None
+  CMAKE_GENERATOR = None
+  CMAKE_PREFIX_PATH_x86_64-pc-windows-msvc = None
+  CMAKE_PREFIX_PATH_x86_64_pc_windows_msvc = None
+  HOST_CMAKE_PREFIX_PATH = None
+  CMAKE_PREFIX_PATH = None
+  CMAKE_x86_64-pc-windows-msvc = None
+  CMAKE_x86_64_pc_windows_msvc = None
+  HOST_CMAKE = None
+  CMAKE = None
+
+  --- stderr
+  running: "cmake" "C:\\Users\\indra\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prost-build-0.10.4\\third-party\\protobuf\\cmake" "-B" "C:\\Users\\indra\\grpc-tutorial\\target\\debug\\build\\prost-build-d0164da1cc335b9f\\out\\build" "-G" "Visual Studio 17 2022" "-Thost=x64" "-Ax64" "-Dprotobuf_BUILD_TESTS=OFF" "-DCMAKE_INSTALL_PREFIX=C:\\Users\\indra\\grpc-tutorial\\target\\debug\\build\\prost-build-d0164da1cc335b9f\\out" "-DCMAKE_C_FLAGS= -nologo -MD -Brepro -W0" "-DCMAKE_C_FLAGS_DEBUG= -nologo -MD -Brepro -W0" "-DCMAKE_CXX_FLAGS= -nologo -MD -Brepro -W0" "-DCMAKE_CXX_FLAGS_DEBUG= -nologo -MD -Brepro -W0" "-DCMAKE_ASM_FLAGS= -nologo -MD -Brepro -W0" "-DCMAKE_ASM_FLAGS_DEBUG= -nologo -MD -Brepro -W0" "-DCMAKE_BUILD_TYPE=Debug"
+
+  thread 'main' (99736) panicked at C:\Users\indra\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cmake-0.1.58\src\lib.rs:1132:5:
+
+  failed to execute command: program not found
+  is `cmake` not installed?
+
+  build script failed, must exit now
+  stack backtrace:
+     0: std::panicking::panic_handler
+               at /rustc/e408947bfd200af42db322daf0fadfe7e26d3bd1/library\std\src\panicking.rs:689
+     1: core::panicking::panic_fmt
+               at /rustc/e408947bfd200af42db322daf0fadfe7e26d3bd1/library\core\src\panicking.rs:80
+     2: cmake::find_cmake_executable::{{closure}}
+     3: cmake::find_cmake_executable::{{closure}}
+     4: cmake::Config::build
+     5: build_script_build::main
+     6: std::rt::lang_start
+     7: std::rt::lang_start
+     8: build_script_build::main
+     9: build_script_build::main
+    10: std::rt::lang_start
+    11: std::rt::lang_start
+    12: std::rt::lang_start
+    13: std::rt::lang_start_internal::closure$0
+               at /rustc/e408947bfd200af42db322daf0fadfe7e26d3bd1/library\std\src\rt.rs:175
+    14: std::panicking::catch_unwind::do_call
+               at /rustc/e408947bfd200af42db322daf0fadfe7e26d3bd1/library\std\src\panicking.rs:581
+    15: std::panicking::catch_unwind
+               at /rustc/e408947bfd200af42db322daf0fadfe7e26d3bd1/library\std\src\panicking.rs:544
+    16: std::panic::catch_unwind
+               at /rustc/e408947bfd200af42db322daf0fadfe7e26d3bd1/library\std\src\panic.rs:359
+    17: std::rt::lang_start_internal
+               at /rustc/e408947bfd200af42db322daf0fadfe7e26d3bd1/library\std\src\rt.rs:171
+    18: std::rt::lang_start
+    19: main
+    20: invoke_main
+               at D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:78
+    21: __scrt_common_main_seh
+               at D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288
+    22: BaseThreadInitThunk
+    23: RtlUserThreadStart
+  note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
